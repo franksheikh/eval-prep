@@ -1,0 +1,40 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  text-align: left !important;
+  min-width: 400px;
+}
+
+.user-info,
+.users,
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options {
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.main {
+  border: 1px solid #333;
+  width: 100%;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0px;
+}
